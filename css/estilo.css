@@ -1,0 +1,135 @@
+/*index*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f3f3;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center; /* centraliza na horizontal */
+    align-items: center; /* centraliza na vertical */
+    flex-direction: column;
+    height: 100vh;
+}
+
+.botao{
+    background-color: rgb(241, 7, 7);
+    color: white;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+/*fim*/
+
+.titulo{
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 145, 29);
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f3f3;
+}
+/*tabela*/
+table{
+    border: 1px solid #999;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+td, th{
+    border: 1px solid #999;
+    padding: 3px;
+}
+
+th{
+    height: 45px;
+    background-color: #555;
+    color: red;
+}
+
+tr:hover{
+    background-color: #ccc;
+}
+/*fim*/
+
+
+/*menu*/
+.menu ul{
+    display:flex;
+    height: 40px;
+    background-color: rgb(247, 145, 29);
+    justify-content: end;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 0;
+}
+
+.menu ul li{
+    padding: 15px 20px;
+}
+
+.menu ul li:hover{
+    background-color: crimson;
+    color: white;
+    border: solid black;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*fim*/
+
+/* INPUTS*/
+
+input[type="text"],
+input[type="quantAtual"],
+input[type="quantMinima"]{
+    height: 35px; /* altura da linha */
+    width: 100%; /*largura da linha */
+    border-radius: 5px; /* cantos arredondados */
+    border: 1px solid #888; /* espessura da borda, estilo e cor */
+    padding: 5px; /* espaçamento interno do input para distânciar texto da borda */
+    font-weight: 1.2rem; /* aumenta em 10% o tamanho padrão da fonte */
+}
+
+input[type="submit"]{
+    padding: 20px 40px;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: green;
+    color: rgb(255, 255, 255);
+}
+
+.row{
+    display: flex;
+    gap: 5px;
+    margin: 10px;
+}
+
+.col{
+    width: 100%;
+}
+
+/* INPUTS FINAL */
